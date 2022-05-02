@@ -3,7 +3,9 @@ azure link to webapp running container: https://businessinfoswiftly.azurewebsite
 ## Endpoints
 GET actuator/health : default health check for the pod
 GET businessInfo/neighborhoodCount?neighborHood=<String> to see how many businesses reside in a neighborhood (Allowable to be empty)
+  ex: https://businessinfoswiftly.azurewebsites.net/businessInfo/neighborhoodCount?neighborHood=Tenderloin
 GET businessInfo/zipCodeCount?zipCode=<String> to see how many businesses reside in a zip code 
+  ex: https://businessinfoswiftly.azurewebsites.net/businessInfo/zipCodeCount?zipCode=94105
 POST businessInfo/addBusinessInfo too add business info (See documentation in the API section of the code
 
 # Purpose
