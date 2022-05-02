@@ -10,6 +10,8 @@ POST businessInfo/addBusinessInfo too add business info (See documentation in th
 
 # Purpose
 The purpose of this project was to demonstrate my ability to rapidly create functional code. Stand it up within a requested cloud environment (Azure as requested). And write code that is well documented and extensible into a few possible ways.
+  
+Finally, i chose to create my own database and upload the downloaded data to it. This is because if i were designing a reliable application i would both want my own data ownership and reliability as well as the ability to change the schema of my table in ways that may not easily play with the original sources data easily.
 
 # Constraints And Notes
 - I am chosing to allow myself no more than 8 hours to work on this project. This includes setting up the resources on Azure as well as testing functionality and performance and ci-cd
